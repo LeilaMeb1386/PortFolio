@@ -1,0 +1,220 @@
+body{
+  width:100vw;
+  height:100vh;
+  margin:0;
+  display:flex;
+  flex-direction: row;
+}
+.container{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.part-left{
+  width:50%;
+  height:100%;
+  position: fixed;
+  background-image: url('gif.gif');
+  background-repeat: no-repeat;
+  background-size: auto;
+
+}
+.part-right{
+  width:50%;
+  height:100%;
+  top:0;
+  margin-left: auto;
+
+}
+.nav-bar{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  position: relative;
+  top: 140px;
+}
+a{
+  list-style: none;
+  color:white;
+  text-decoration: none;
+
+}
+.nom{
+text-align: center;
+justify-content: center;
+padding:20%;
+font-family: 'Crimson Text';
+color:#DDB0FD;
+font-size: 2em;
+}
+.presentation{
+  color:white;
+  height:60%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding:25%;
+  font-family: 'Crimson Text';
+  font-size: 1.2em;
+  background-color: #E8C3B9;
+
+}
+h1{
+  margin:0;
+  color:#59393E;
+}
+.forma{
+  height:100%;
+  background-color: #EEF0F5;
+  padding:5%;
+  text-align: center;
+  justify-content: center;
+   font-family: 'Crimson Text';
+}
+
+.parc1{
+   border: 3px #59393E solid;
+   margin:1%;
+   padding:1%;
+   color:#59393E;
+}
+.competence{
+  height:100%;
+  color:#221522;
+  padding:10%;
+  background-color:#C0ACA5;
+   font-family: 'Crimson Text';
+  display:flex;
+  flex-direction: column;
+}
+.autre{
+  color:#221522E;
+}
+#compétences{
+  text-align: center;
+}
+
+#progress_html{
+   width: 100%;
+   height: 20px;
+   background-color: #CDD6D5;
+   border-top-right-radius: 16px;
+   border-bottom-right-radius: 16px;
+}
+#progress_css{
+   width: 100%;
+   height: 20px;
+   background-color: #CDD6D5;
+   border-top-right-radius: 16px;
+   border-bottom-right-radius: 16px;
+}
+#progress_js{
+   width: 100%;
+   height: 20px;
+   background-color: #CDD6D5;
+   border-top-right-radius: 16px;
+   border-bottom-right-radius: 16px;
+}
+#progress_php{
+   width: 100%;
+   height: 20px;
+   background-color:#CDD6D5;
+   border-top-right-radius: 16px;
+   border-bottom-right-radius: 16px;
+}
+#progress_sql{
+  width: 100%;
+  height: 20px;
+  background-color:  #CDD6D5;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+#progress_Laravel{
+  width: 100%;
+  height: 20px;
+  background-color:  #CDD6D5;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+.html, .css, .js, .php, .sql, .Laravel{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.contacter{
+  height:20vh;
+  color:white;
+  padding:10%;
+  background-color: #8D7B76;
+  font-family: 'Crimson Text';
+  text-align: center;
+
+}
+#contact{
+  text-align: center;
+  font-size: 1.5em;
+}
+.flex-base{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-no-style{
+  padding : 0;
+  margin :0;
+  list-style: none;
+}
+.menu{
+  position: fixed;
+  height: 120px;
+  background-color: white;
+  left: 332px;
+    z-index: 1;
+    top: 20px;
+}
+.hidden{
+  display: none;
+}
+.nav-bar a:hover{
+  color:#5C5142;
+}
+
+@media (max-width: 900px) {
+
+  .part-left{
+    width:inherit;
+    position: static;
+  }
+  .part-right{
+    width:inherit;
+  }
+.container {
+  width: auto;
+  flex-direction: column;
+  }
+  .nav-bar{
+    flex-direction: column;
+  }
+  .nav-bar a{
+    margin: 20px;
+  }
+  .menu{
+    position: fixed;
+    height: 90px;
+    background-color: white;
+    left: 140px;
+  }
+  .nav-ar{
+    top: 130px!important;
+  }
+}
